@@ -1,0 +1,6 @@
+Instance 1:
+UNIVERSE SIZE= 100
+NUM SETS= 10
+DENSITY= 0.2
+
+results = 

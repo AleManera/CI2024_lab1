@@ -1,0 +1,10 @@
+#!/bin/sh
+'''exec' "/Users/alessandromanera/Desktop/Master Degree/2nd Year/2nd Year - 1st Semester/Computational Intelligence/Lab1/venv/bin/python3.9" "$0" "$@"
+' '''
+# -*- coding: utf-8 -*-
+import re
+import sys
+from xattr.tool import main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())
